@@ -1,0 +1,16 @@
+{
+  "name": "study-notes",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "个人学习笔记站（基于 VitePress）",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.5.0",
+    "markdown-it-mathjax3": "^4.3.2"
+  }
+}

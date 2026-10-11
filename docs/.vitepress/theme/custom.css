@@ -1,0 +1,28 @@
+/* ============================================================
+   自定义样式
+   - 改配色、字体、间距都在这里
+   - 改完保存后，本地预览会自动刷新
+   ============================================================ */
+
+/* 品牌主色（默认是 VitePress 的绿色，这里换成蓝紫色系） */
+:root {
+  --vp-c-brand-1: #3b82f6;
+  --vp-c-brand-2: #2563eb;
+  --vp-c-brand-3: #1d4ed8;
+}
+
+/* 中文字体优化 */
+html {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC',
+    'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* 正文更宽松，中文读起来更舒服 */
+.vp-doc {
+  line-height: 1.8;
+}
+
+/* 代码块圆角 */
+div[class*='language-'] {
+  border-radius: 8px;
+}
