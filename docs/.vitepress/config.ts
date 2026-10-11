@@ -11,6 +11,10 @@ export default defineConfig({
   title: '我的学习笔记',
   description: '个人学习资料与心得整理',
 
+  // GitHub Pages 部署在子路径下（用户名.github.io/仓库名），必须设置 base
+  // 如果你以后换成自定义域名（如 xxx.top），把这里改成 '/' 即可
+  base: '/study-notes/',
+
   // 让代码块显示行号，方便以后引用
   markdown: {
     lineNumbers: true,
